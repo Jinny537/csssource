@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .row .column {
+        width: 25%;
+        padding: 20px;
+        float: left;
+      }
+      .row .column:first-child {
+        background: #aaa;
+      }
+      .row .column:nth-child(2) {
+        background: #bbb;
+      }
+      .row .column:nth-child(3) {
+        background: #ccc;
+      }
+      .row .column:nth-child(4) {
+        background: #ddd;
+      }
+      @media screen and (min-width: 601px) and (max-width: 992px) {
+        .row .column {
+          width: 50%;
+          padding: 20px;
+          float: left;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .row .column {
+          width: 100%;
+          padding: 20px;
+          float: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>미디어 쿼리</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint tempora voluptatibus ut eius aliquam consectetur, illo ex dicta labore dolore
+      quis atque minus. Fuga, quo? Aut eaque incidunt libero.
+    </p>
+
+    <div class="row">
+      <div class="column">
+        <p>some text</p>
+      </div>
+      <div class="column">
+        <p>some text</p>
+      </div>
+      <div class="column">
+        <p>some text</p>
+      </div>
+      <div class="column">
+        <p>some text</p>
+      </div>
+    </div>
+  </body>
+</html>

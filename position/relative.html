@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 전체요소 - 모든 여백 0 */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* img - 하단 공백 제거 */
+      img {
+        vertical-align: top;
+      }
+      /* box - 테두리(1 solid black) */
+      .box {
+        border: 1px solid;
+        padding: 10px;
+        position: relative;
+      }
+      .a {
+        background-color: blue;
+        left: 50px;
+        top: 50px;
+      }
+      .b {
+        background-color: red;
+        left: 50px;
+        top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- relative - 요소 자신을 기준으로 배치
+                    처음에 배치되었던 위치를 기준으로 움직임
+    -->
+    <div class="box a">
+      <img src="https://placehold.co/100" alt="" />
+    </div>
+    <div class="box b">
+      <img src="https://placehold.co/100" alt="" />
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum exercitationem nihil alias, quisquam aut tempora nemo recusandae tenetur in
+      dignissimos placeat laboriosam vitae minus consectetur porro explicabo nulla libero commodi asperiores vero earum animi esse molestiae! Dolorum
+      soluta, in est aspernatur nemo aperiam architecto rerum commodi aut sapiente! Asperiores sapiente deserunt placeat aspernatur reprehenderit
+      corrupti, quaerat dolorum harum facere maxime impedit nihil culpa excepturi eveniet illum cumque nulla atque unde, commodi dolore doloremque?
+      Ducimus distinctio animi unde et soluta aliquam nihil iure, quis ex odit veniam voluptatibus! Repellat voluptas dolorem ipsam eum, numquam
+      repudiandae fuga in. Ipsam, porro numquam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum exercitationem nihil alias, quisquam aut tempora nemo recusandae tenetur in
+      dignissimos placeat laboriosam vitae minus consectetur porro explicabo nulla libero commodi asperiores vero earum animi esse molestiae! Dolorum
+      soluta, in est aspernatur nemo aperiam architecto rerum commodi aut sapiente! Asperiores sapiente deserunt placeat aspernatur reprehenderit
+      corrupti, quaerat dolorum harum facere maxime impedit nihil culpa excepturi eveniet illum cumque nulla atque unde, commodi dolore doloremque?
+      Ducimus distinctio animi unde et soluta aliquam nihil iure, quis ex odit veniam voluptatibus! Repellat voluptas dolorem ipsam eum, numquam
+      repudiandae fuga in. Ipsam, porro numquam.
+    </p>
+  </body>
+</html>
